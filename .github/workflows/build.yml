@@ -49,8 +49,6 @@ jobs:
 
       - name: Build
         working-directory: statshouse
-        env:
-          BUILD_TRUSTED_SUBNET_GROUPS: "0.0.0.0/0"
         run: make
 
       - name: Package binaries
